@@ -21,7 +21,7 @@ public class Objective4Lab1 {
     favoriteFood = keyboard.nextLine();
     System.out.println("What is your favorite song?");
     favoriteSong = keyboard.nextLine();
-    
+    keyboard.close();
     System.out.println("My name is " + fname + " " + lname + ".");
     System.out.println("My favorite animal is the " + favoriteAnimal + ".");
     System.out.println("My favorite food is " + favoriteFood + ".");
